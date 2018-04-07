@@ -3,29 +3,32 @@ Per ottenere i risultati descritti nella relazione eseguire il modulo Exec.py ne
 
 1) Scegliere la cartella del dataset che si vuole prendere come positiva
 
-2) Impostare il percorso della cartella scelta all'interno del dataset, stando attenti a mettere nella variabile "trainPath" il percorso
-   relativo alla cartella contenuta nella cartella del train ed in "testPath" il percorso relativo alla cartella del test
+2) Impostare il percorso della cartella scelta all'interno del dataset, stando attenti a mettere nella
+   variabile "trainPath" il percorso relativo alla cartella contenuta nella cartella del train ed in
+   "testPath" il percorso relativo alla cartella del test
 
-IMPORTANTE: fare attenzione che entrambi i percorsi, nel train e nel test, indichino una cartella
-	    con lo stesso nome (cioè email sullo stesso argomento)
+IMPORTANTE: fare attenzione che entrambi i percorsi, nel train e nel test, indichino una cartella con
+            lo stesso nome (cioè email sullo stesso argomento)
 
-3) Fare lo stesso procedimento anche per le righe di codice successive, in cui di fatto si eseguono le stesse operazioni
-   però cambiando la scelta della cartella scelta come positiva.
+3) Fare lo stesso procedimento anche per le righe di codice successive, in cui di fatto si eseguono
+   le stesse operazioni però cambiando la scelta della cartella scelta come positiva.
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 COME LEGGERE L'OUTPUT
-Una volta mandato in esecuzione il programma ci saranno delle stampe per aggiornare l'utente sulle operazioni in atto, per esempio
-"calculating Bernoulli Matrix..." oppure "calculating hyperplane...".
-Una volta eseguite tutte le operazioni e stampato a video che sono terminate viene stampato, sempre a video, un resoconto del test effettuato,
-che è costituito dal nome delle cartelle e dal numero di email calcolato come positive e negative al suo interno.
+Una volta mandato in esecuzione il programma ci saranno delle stampe per aggiornare l'utente sulle
+operazioni in atto, per esempio "calculating Bernoulli Matrix..." oppure "calculating hyperplane...".
+Una volta eseguite tutte le operazioni e stampato a video che sono terminate viene stampato, sempre a
+video, un resoconto del test effettuato, che è costituito dal nome delle cartelle e dal numero di email
+calcolato come positive e negative al suo interno.
 Al termine del risultato verrà stampato anche il tempo di esecuzione dell'intera operazione, in secondi.
 
-Dopodichè verranno fatte le stesse operazioni prendendo altre classi come positiv e a video si avranno le stesse stampe, con naturalmente il
-resoconto ed il tempo di esecuzione relativo a quest'ultimo test test.
+Dopodichè verranno fatte le stesse operazioni prendendo altre classi come positiv e a video si avranno
+le stesse stampe, con naturalmente il resoconto ed il tempo di esecuzione relativo a quest'ultimo test
+test.
 
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 TEMPI DI ESECUZIONE (su computer con le seguenti caratteristiche: Intel Core i3-5005U 2.0GHz, RAM 4GB)
 
@@ -37,7 +40,7 @@ TEMPI DI ESECUZIONE (su computer con le seguenti caratteristiche: Intel Core i3-
 - terzo test (classe positiva "sci.electronics")     16 minuti circa
 
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 RIFERIMENTI:
 
@@ -48,5 +51,5 @@ L'implementazione della funzione per trovare l'iperpiano di separazione ha trova
 http://scikit-learn.org/0.18/auto_examples/svm/plot_separating_hyperplane.html
 
 
-In entrambi i casi il codice trovato può aver subito della variazioni o essere stato preso in parte per motivi di necessità ed adattamento
-al problema da risolvere nello specifico caso trattato.
+In entrambi i casi il codice trovato può aver subito della variazioni o essere stato preso in parte
+per motivi di necessità ed adattamento al problema da risolvere nello specifico caso trattato.
