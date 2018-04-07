@@ -1,3 +1,20 @@
+Come primo passo scaricare il dataset:
+ - vai su http://qwone.com/~jason/20Newsgroups/
+ - scendi nella sezione 'Data'
+ - scarica il secondo dataset 20news-bydate.tar.gz - 20 Newsgroups sorted by date
+
+Dopodichè:
+ - prendere la cartella scaricata
+ - decomprimerla
+ - mettere le due cartelle che si ottengono all'interno di una nuova cartella chiamata 'dataset' e
+   posizionare quest'ultima cartella dove si hanno i file .py del programma da eseguire.
+
+In questo modo i percorsi presenti nel codice del programma saranno validi.
+
+I test sono stati eseguiti su questo dataset, è quindi necessaria la sua presenza.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 COME OTTENERE RISULTATI DESCRITTI
 Per ottenere i risultati descritti nella relazione eseguire il modulo Exec.py nel seguente modo:
 
