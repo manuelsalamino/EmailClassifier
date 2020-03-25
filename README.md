@@ -27,6 +27,7 @@ Il training e il testing sono stati eseguiti su questo dataset, è quindi necess
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 **COME OTTENERE RISULTATI DESCRITTI**
+
 Eseguire il modulo Exec.py nel seguente modo:
 
 1) Scegliere la cartella del dataset che si vuole prendere come positiva
@@ -40,6 +41,7 @@ IMPORTANTE: fare attenzione che entrambi i percorsi, nel train e nel test, indic
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 **COME LEGGERE L'OUTPUT**
+
 Una volta mandato in esecuzione il programma ci saranno delle stampe per aggiornare l'utente sulle
 operazioni in atto, per esempio "calculating Bernoulli Matrix..." oppure "calculating hyperplane...".
 Una volta eseguite tutte le operazioni e stampato a video che sono terminate viene stampato, sempre a
@@ -53,7 +55,8 @@ test.
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-**TEMPI DI ESECUZIONE** (su computer con le seguenti caratteristiche: Intel Core i3-5005U 2.0GHz, RAM 4GB)
+**TEMPI DI ESECUZIONE** 
+(su computer con le seguenti caratteristiche: Intel Core i3-5005U 2.0GHz, RAM 4GB)
 
 
 - primo test (classe positiva "alt.atheism")     17 minuti circa
