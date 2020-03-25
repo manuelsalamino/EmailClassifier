@@ -5,7 +5,8 @@ Data email appartenente a 20 categoria differenti, progettare un #classificatore
 Utilizzando l'algoritmo Naive Bayes.
 Dopodichè calcolare la curva ROC usando come score la distanza dall'iperpiano di separazione.
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 SCARICARE IL DATASET MANUALMENTE ESEGUENDO LE ISTRUZIONI SOTTO RIPORTATE PER OTTENERE I RISULTATI DESCRITTI
 
 Primo passo, scaricare il dataset:
