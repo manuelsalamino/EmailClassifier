@@ -5,7 +5,7 @@ Data email appartenenti a 20 categoria differenti, progettare un **classificator
 Utilizzando l'algoritmo Naive Bayes.
 Dopodichè calcolare la curva ROC usando come score la distanza dall'iperpiano di separazione.
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 **SCARICARE IL DATASET MANUALMENTE ESEGUENDO LE ISTRUZIONI SOTTO RIPORTATE PER OTTENERE I RISULTATI DESCRITTI**
 
@@ -24,7 +24,7 @@ In questo modo i percorsi presenti nel codice del programma saranno validi.
 
 Il training e il testing sono stati eseguiti su questo dataset, è quindi necessaria la sua presenza al fine di ottenere i risultati descritti.
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 **COME OTTENERE RISULTATI DESCRITTI**
 Eseguire il modulo Exec.py nel seguente modo:
@@ -37,7 +37,7 @@ IMPORTANTE: fare attenzione che entrambi i percorsi, nel train e nel test, indic
 
 3) Fare lo stesso procedimento anche per le righe di codice successive, in cui di fatto si eseguono le stesse operazioni però cambiando la scelta della cartella scelta come positiva.
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 **COME LEGGERE L'OUTPUT**
 Una volta mandato in esecuzione il programma ci saranno delle stampe per aggiornare l'utente sulle
@@ -51,7 +51,7 @@ Dopodichè verranno fatte le stesse operazioni prendendo altre classi come posit
 test.
 
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 **TEMPI DI ESECUZIONE** (su computer con le seguenti caratteristiche: Intel Core i3-5005U 2.0GHz, RAM 4GB)
 
@@ -63,7 +63,7 @@ test.
 - terzo test (classe positiva "sci.electronics")     16 minuti circa
 
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 **RIFERIMENTI**
 
