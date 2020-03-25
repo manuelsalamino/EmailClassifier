@@ -1,9 +1,19 @@
-Come primo passo scaricare il dataset:
+##Intelligenza Artificale - Progetto
+
+#Obiettivo
+Data email appartenente a 20 categoria differenti, progettare un #classificatore di documenti che, data una classe come positiva e le rimanenti 19 come negative, riesca classificare correttamente una nuova email (come appartenente alla classe positiva o all'insieme di classi negative).
+Utilizzando l'algoritmo Naive Bayes.
+Dopodich√® calcolare la curva ROC usando come score la distanza dall'iperpiano di separazione.
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+SCARICARE IL DATASET MANUALMENTE ESEGUENDO LE ISTRUZIONI SOTTO RIPORTATE PER OTTENERE I RISULTATI DESCRITTI
+
+Primo passo, scaricare il dataset:
  - vai su http://qwone.com/~jason/20Newsgroups/
  - scendi nella sezione 'Data'
  - scarica il secondo dataset 20news-bydate.tar.gz - 20 Newsgroups sorted by date
 
-DopodichË:
+Dopodich√®:
  - prendere la cartella scaricata
  - decomprimerla
  - mettere le due cartelle che si ottengono all'interno di una nuova cartella chiamata 'dataset' e
@@ -11,24 +21,20 @@ DopodichË:
 
 In questo modo i percorsi presenti nel codice del programma saranno validi.
 
-I test sono stati eseguiti su questo dataset, Ë quindi necessaria la sua presenza.
+Il training e il testing sono stati eseguiti su questo dataset, √® quindi necessaria la sua presenza al fine di ottenere i risultati descritti.
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 COME OTTENERE RISULTATI DESCRITTI
-Per ottenere i risultati descritti nella relazione eseguire il modulo Exec.py nel seguente modo:
+Eseguire il modulo Exec.py nel seguente modo:
 
 1) Scegliere la cartella del dataset che si vuole prendere come positiva
 
-2) Impostare il percorso della cartella scelta all'interno del dataset, stando attenti a mettere nella
-   variabile "trainPath" il percorso relativo alla cartella contenuta nella cartella del train ed in
-   "testPath" il percorso relativo alla cartella del test
+2) Impostare il percorso della cartella scelta all'interno del dataset, stando attenti a mettere nella variabile "trainPath" il percorso relativo alla cartella contenuta nella cartella del train ed in "testPath" il percorso relativo alla cartella del test
 
-IMPORTANTE: fare attenzione che entrambi i percorsi, nel train e nel test, indichino una cartella con
-            lo stesso nome (cioË email sullo stesso argomento)
+IMPORTANTE: fare attenzione che entrambi i percorsi, nel train e nel test, indichino una cartella con lo stesso nome (cio√® email sullo stesso argomento)
 
-3) Fare lo stesso procedimento anche per le righe di codice successive, in cui di fatto si eseguono
-   le stesse operazioni perÚ cambiando la scelta della cartella scelta come positiva.
+3) Fare lo stesso procedimento anche per le righe di codice successive, in cui di fatto si eseguono le stesse operazioni per√≤ cambiando la scelta della cartella scelta come positiva.
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -36,12 +42,11 @@ COME LEGGERE L'OUTPUT
 Una volta mandato in esecuzione il programma ci saranno delle stampe per aggiornare l'utente sulle
 operazioni in atto, per esempio "calculating Bernoulli Matrix..." oppure "calculating hyperplane...".
 Una volta eseguite tutte le operazioni e stampato a video che sono terminate viene stampato, sempre a
-video, un resoconto del test effettuato, che Ë costituito dal nome delle cartelle e dal numero di email
+video, un resoconto del test effettuato, che √® costituito dal nome delle cartelle e dal numero di email
 calcolato come positive e negative al suo interno.
-Al termine del risultato verr‡ stampato anche il tempo di esecuzione dell'intera operazione, in secondi.
+Al termine del risultato verr√† stampato anche il tempo di esecuzione dell'intera operazione, in secondi.
 
-DopodichË verranno fatte le stesse operazioni prendendo altre classi come positiv e a video si avranno
-le stesse stampe, con naturalmente il resoconto ed il tempo di esecuzione relativo a quest'ultimo test
+Dopodich√® verranno fatte le stesse operazioni prendendo altre classi come positive, e a video si avranno le stesse stampe, con naturalmente il resoconto ed il tempo di esecuzione relativo a quest'ultimo test
 test.
 
 
@@ -61,12 +66,12 @@ TEMPI DI ESECUZIONE (su computer con le seguenti caratteristiche: Intel Core i3-
 
 RIFERIMENTI:
 
-L'implementazione dell'algoritmo per le curve ROC Ë stato preso dal seguente indirizzo:
+L'implementazione dell'algoritmo per le curve ROC √® stato preso dal seguente indirizzo:
 https://datamize.wordpress.com/2015/01/24/how-to-plot-a-roc-curve-in-scikit-learn/
 
-L'implementazione della funzione per trovare l'iperpiano di separazione ha trovato riferimenti quÏ:
+L'implementazione della funzione per trovare l'iperpiano di separazione ha trovato riferimenti qu√¨:
 http://scikit-learn.org/0.18/auto_examples/svm/plot_separating_hyperplane.html
 
 
-In entrambi i casi il codice trovato puÚ aver subito della variazioni o essere stato preso in parte
-per motivi di necessit‡ ed adattamento al problema da risolvere nello specifico caso trattato.
+In entrambi i casi il codice trovato pu√≤ aver subito della variazioni o essere stato preso in parte
+per motivi di necessit√† ed adattamento al problema da risolvere nello specifico caso trattato.
