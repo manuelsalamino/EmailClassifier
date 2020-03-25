@@ -1,7 +1,7 @@
 # Intelligenza Artificale - Progetto
 
 ## Obiettivo
-Data email appartenente a 20 categoria differenti, progettare un **classificatore di documenti** che, data una classe come positiva e le rimanenti 19 come negative, riesca classificare correttamente una nuova email (come appartenente alla classe positiva o all'insieme di classi negative).
+Data email appartenenti a 20 categoria differenti, progettare un **classificatore di documenti** che, data una classe come positiva e le rimanenti 19 come negative, riesca classificare correttamente una nuova email (come appartenente alla classe positiva o all'insieme di classi negative).
 Utilizzando l'algoritmo Naive Bayes.
 Dopodichè calcolare la curva ROC usando come score la distanza dall'iperpiano di separazione.
 
