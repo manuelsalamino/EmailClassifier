@@ -1,13 +1,13 @@
-## Intelligenza Artificale - Progetto
+# Intelligenza Artificale - Progetto
 
-# Obiettivo
-Data email appartenente a 20 categoria differenti, progettare un #classificatore di documenti che, data una classe come positiva e le rimanenti 19 come negative, riesca classificare correttamente una nuova email (come appartenente alla classe positiva o all'insieme di classi negative).
+## Obiettivo
+Data email appartenente a 20 categoria differenti, progettare un **classificatore di documenti** che, data una classe come positiva e le rimanenti 19 come negative, riesca classificare correttamente una nuova email (come appartenente alla classe positiva o all'insieme di classi negative).
 Utilizzando l'algoritmo Naive Bayes.
 Dopodichè calcolare la curva ROC usando come score la distanza dall'iperpiano di separazione.
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-SCARICARE IL DATASET MANUALMENTE ESEGUENDO LE ISTRUZIONI SOTTO RIPORTATE PER OTTENERE I RISULTATI DESCRITTI
+**SCARICARE IL DATASET MANUALMENTE ESEGUENDO LE ISTRUZIONI SOTTO RIPORTATE PER OTTENERE I RISULTATI DESCRITTI**
 
 Primo passo, scaricare il dataset:
  - vai su http://qwone.com/~jason/20Newsgroups/
@@ -26,7 +26,7 @@ Il training e il testing sono stati eseguiti su questo dataset, è quindi necess
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-COME OTTENERE RISULTATI DESCRITTI
+**COME OTTENERE RISULTATI DESCRITTI**
 Eseguire il modulo Exec.py nel seguente modo:
 
 1) Scegliere la cartella del dataset che si vuole prendere come positiva
@@ -39,7 +39,7 @@ IMPORTANTE: fare attenzione che entrambi i percorsi, nel train e nel test, indic
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-COME LEGGERE L'OUTPUT
+**COME LEGGERE L'OUTPUT**
 Una volta mandato in esecuzione il programma ci saranno delle stampe per aggiornare l'utente sulle
 operazioni in atto, per esempio "calculating Bernoulli Matrix..." oppure "calculating hyperplane...".
 Una volta eseguite tutte le operazioni e stampato a video che sono terminate viene stampato, sempre a
@@ -53,7 +53,7 @@ test.
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-TEMPI DI ESECUZIONE (su computer con le seguenti caratteristiche: Intel Core i3-5005U 2.0GHz, RAM 4GB)
+**TEMPI DI ESECUZIONE** (su computer con le seguenti caratteristiche: Intel Core i3-5005U 2.0GHz, RAM 4GB)
 
 
 - primo test (classe positiva "alt.atheism")     17 minuti circa
@@ -65,13 +65,13 @@ TEMPI DI ESECUZIONE (su computer con le seguenti caratteristiche: Intel Core i3-
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-RIFERIMENTI:
+**RIFERIMENTI**
 
 L'implementazione dell'algoritmo per le curve ROC è stato preso dal seguente indirizzo:
-https://datamize.wordpress.com/2015/01/24/how-to-plot-a-roc-curve-in-scikit-learn/
+*https://datamize.wordpress.com/2015/01/24/how-to-plot-a-roc-curve-in-scikit-learn/*
 
 L'implementazione della funzione per trovare l'iperpiano di separazione ha trovato riferimenti quì:
-http://scikit-learn.org/0.18/auto_examples/svm/plot_separating_hyperplane.html
+*http://scikit-learn.org/0.18/auto_examples/svm/plot_separating_hyperplane.html*
 
 
 In entrambi i casi il codice trovato può aver subito della variazioni o essere stato preso in parte
